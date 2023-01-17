@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NFT Market</title>
+   <style>
+       * {
+           box-sizing: border-box;
+       }
+
+       body {
+           font-family: 'Roboto Mono', monospace;
+           background: #070d19;
+           color: #008edd;
+       }
+
+       main {
+           padding: 1rem;
+       }
+
+       .row {
+           display: flex;
+           flex-direction: row;
+       }
+
+       .column {
+           margin-right: 1rem;
+       }
+
+       .card {
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+           padding: 1rem;
+           text-align: center;
+           background: #0f1a2e;
+           border-radius: 1rem;
+           height: 24rem;
+           color: #008edd;
+           box-shadow: #008edd 0 1px 2.5px 1.5px;
+       }
+
+           .card img {
+               max-height: 100px;
+               border-radius: 10px;
+               box-shadow: #008edd 0 1px 2.5px .5px;
+           }
+
+       button {
+           background: #4CAF50;
+           border: none;
+           color: white;
+           padding: 16px 24px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+           border-radius: 0.5rem;
+       }
+
+       .navbar {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           background: #0f1a2e;
+           box-shadow: #008edd 0 .5px .5px .5px;
+       }
+
+       .nav-list > ul {
+           display: flex;
+           list-style: none;
+           align-items: center;
+       }
+
+       ul > li {
+           margin: 0 20px;
+       }
+
+       li > a {
+           color: #008edd;
+           font-size: 1.1rem;
+       }
+
+
+       .top-sold {
+           margin-top: 3rem;
+           margin-bottom: -1rem;
+           width: 100%;
+           background: #0f1a2e;
+           box-shadow: #008edd 0 .5px .5px .5px;
+       }
+
+           .top-sold > h2 {
+               color: #008edd;
+               text-align: center;
+               box-shadow: #008edd 0 .5px .5px .5px;
+           }
+                        
+
+       .top-nft-hero-one {
+           display: flex;
+           margin: 5rem 0;
+           max-width: 50%;
+       }
+
+       .top-nft-hero-image img {
+           margin-left: 1rem;
+           width: 500px;
+           height: 350px;
+           border-radius: 1rem;
+           box-shadow: #008edd 0 2px 4px 1px;
+       }
+
+       .top-nft-hero-description button {
+           align-items: center;
+       }
+   </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      
+      <div class="nav-list">
+          <ul>
+              <li><a href="vault.html" class="nav-link">Vault</a></li>
+              <li><a href="top.html" class="nav-link">TOP selling NFT's</a></li>
+              
+          </ul>
+      </div>
+      
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="nfts/BoredApeJasonCrowe.jpg">
+            <h2>Bored Ape Jason Crowe</h2>
+            <h4>PRICE:8000 QORT</h4>
+            <button>Buy</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="nfts/imagedev.jpg">
+            <h2>more coming soon</h2>
+            <h4>PRICE:0 QORT</h4>
+            <button>Buy</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="nfts/imagedev.jpg">
+            <h2>more coming soon</h2>
+            <h4>PRICE:0 QORT</h4>
+            <button>Buy</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="nfts/imagedev.jpg">
+            <h2>more coming soon</h2>
+            <h4>PRICE:0 QORT</h4>
+            <button>Buy</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="nfts/imagedev.jpg">
+            <h2>more coming soon</h2>
+            <h4>PRICE:0 QORT</h4>
+            <button>Buy</button>
+          </div>         
+      </div>
+          </div>
+    </section>
+
+    <section>
+      <div class="top-sold">
+        <h2>
+         Top Sold NFT's
+        </h2>
+      </div>
+      <div class="top-nft-hero-one">
+        <div class="top-nft-hero-description">
+            <h2>Bored Ape Jason Crowe</h2>
+          <p>NFT details.</p>
+          <button>Buy</button>
+        </div>
+        <div class="top-nft-hero-image">
+          <img src="./nfts/BoredApeJasonCrowe.jpg" alt="">
+        </div>
+      </div>
+      <div class="top-nft-hero-one">
+        <div class="top-nft-hero-description">
+          <h2>NTF Bored Ape Blue</h2>
+          <p>NFT details.</p>
+          <button>Buy</button>
+        </div>
+        <div class="top-nft-hero-image">
+          <img src="./nfts/imagedev.jpg" alt="">
+        </div>
+      </div>
+      <div class="top-nft-hero-one">
+        <div class="top-nft-hero-description">
+          <h2>NTF Bored Ape Blue</h2>
+          <p>NFT details.</p>
+          <button>Buy</button>
+        </div>
+        <div class="top-nft-hero-image">
+          <img src="./nfts/imagedev.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Qortal© 2022</p>
+  </footer>
+
+</body>
+</html>
